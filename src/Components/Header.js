@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import TypeWriter from "react-typewriter";
 
 const Header = ({ data, language, onChangeLanguage }) => {
-  const [activeLink, setActiveLink] = useState("#home");
+  const [activeLink, setActiveLink] = useState(0);
+
+
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -31,8 +33,8 @@ const Header = ({ data, language, onChangeLanguage }) => {
 
         <ul id="nav" className="nav">
           {
-            data?.links.map(({ label, href }) => (
-              <li key={href} className={href === activeLink ? "current" : ""} onClick={() => setActiveLink(href)}>
+            data?.links.map(({ label, href }, index) => (
+              <li key={href} className={index === activeLink ? "current" : ""} onClick={() => setActiveLink(index)}>
                 <a className="smoothscroll" href={href}>
                   {label}
                 </a>

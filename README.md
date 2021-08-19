@@ -2,7 +2,7 @@
 
 ![PAPA React JS Portfolio Starter Pack](resume-screenshot.PNG?raw=true "International Portfolio")
 
-### <a href="https://confident-bassi-4c8c80.netlify.app/">LIVE DEMO</a>
+### <a href="https://kologojosias.com/">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
 
