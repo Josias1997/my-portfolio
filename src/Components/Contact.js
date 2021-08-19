@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>{data?.labels.getInTouch}</span>
           </h1>
         </div>
 
@@ -76,7 +76,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <label htmlFor="contactSubject">Subject</label>
+                <label htmlFor="contactSubject">{data?.labels.subject}</label>
                 <input
                   type="text"
                   defaultValue=""
@@ -104,22 +104,22 @@ const Contact = ({ data }) => {
 
               <div>
                 <button onClick={submitForm} type="submit" className="submit">
-                  Submit
+                  {data?.labels.submit}
                 </button>
               </div>
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning">{data?.labels.error}</div>
           <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
+            <i className="fa fa-check"></i>{data?.labels.messageSent}
             <br />
           </div>
         </div>
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>{data?.labels.addressAndPhone}</h4>
             <p className="address">
               {contactName}
               <br />

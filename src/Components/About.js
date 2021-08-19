@@ -21,16 +21,16 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Josias's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
-          <h2>About Me</h2>
+          <h2>{data?.labels.aboutMe}</h2>
 
           <p>{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
+              <h2>{data?.labels.contactDetails}</h2>
               <p className="address">
                 <span>{name}</span>
                 <br />
@@ -47,8 +47,8 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href={"files/" + resumeDownload} className="button">
+                  <i className="fa fa-download"></i>{data?.labels.downloadResume}
                 </a>
               </p>
             </div>

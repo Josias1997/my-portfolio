@@ -5,7 +5,7 @@ const Footer = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -21,9 +21,9 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+              {data?.labels.madeBy + " "}
+              <a title="PAPA" href="mailto:kologojosias@gmail.com">
+                KOLOGO Josias
               </a>
             </li>
           </ul>

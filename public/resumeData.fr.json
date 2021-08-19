@@ -1,21 +1,21 @@
 {
   "main": {
     "name": "KOLOGO B Josias Yannick",
-    "occupation": "Full Stack Developer",
-    "description": "I eat, sleep and breathe Development",
+    "occupation": "Développeur Full Stack",
+    "description": "Je mange, dors et respire la programmation",
     "image": "profilepic.png",
-    "bio": "Hi there! I am Josias! And I am a software engineer. I've been coding for over 2 years now. As a Software engineer I've worked both with startups and as a freelancer to help build & scale applications.",
-    "contactmessage": "Get in touch with me for you a job offer or a project!",
+    "bio": "Salut! Je me nomme Josias! Et je suis un ingénieur en Génie Logiciel. Je suis dans le monde professionnel de la programmation il y'a de cela plus de deux ans maintenant. En tant qu'ingénieur en génie logiciel j'ai travaillé à la mise en place et la maintenance de nombreuses applications.",
+    "contactmessage": "Contactez moi pour un travail ou un projet!",
     "email": "kologojosias@gmail.com",
     "phone": "+226 75833234",
     "address": {
-      "street": "Road Sandaogo",
+      "street": "Rue Sandaogo",
       "city": "Ouagadougou",
       "state": "Kadiogo",
       "zip": "85 04"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "cv-kologo.pdf",
+    "website": "/",
+    "resumedownload": "http://papareact.com",
     "social": [
       {
         "name": "linkedin",
@@ -33,25 +33,25 @@
         "className": "fa fa-skype"
       }
     ],
-    "links": [
+    "links": [ 
       {
-        "label": "Home",
+        "label": "Accueil",
         "href": "#home"
       },
       { 
-        "label": "About",
+        "label": "A propos",
         "href": "#about"
       },
       { 
-        "label": "Resume",
+        "label": "CV",
         "href": "#resume"
       },
       { 
-        "label": "Works",
+        "label": "Projets",
         "href": "#portfolio"
       },
       { 
-        "label": "Testimonials",
+        "label": "Témoignages",
         "href": "#testimonials"
       },
       { 
@@ -60,28 +60,28 @@
       }
     ],
     "labels": {
-      "Iam": "I'm",
-      "basedIn": "Based In",
-      "showNavigation": "Show navigation",
-      "hideNavigation": "Hide navigation",
-      "downloadResume": "Download Resume",
-      "aboutMe": "About Me",
-      "getInTouch": "Get In Touch",
-      "submit": "Submit",
-      "error": "En error occured. Please retry",
-      "subject": "Subject",
-      "messagenSent": "Your message was sent, thank you!",
-      "addressAndPhone": "Address and Phone",
-      "contactDetails": "Contact details",
-      "madeBy": "Made By"
+      "Iam": "Je suis",
+      "basedIn": "Basé à",
+      "showNavigation": "Montrer navigation",
+      "hideNavigation": "Cacher navigation",
+      "downloadResume": "Télecharger CV",
+      "aboutMe": "A propos de moi",
+      "getInTouch": "Contact",
+      "subject": "Objet",
+      "submit": "Envoyer",
+      "error": "Erreur. Veuillez reessayer",
+      "messagenSent": "Votre message a été envoyé, Merci!",
+      "addressAndPhone": "Adresse et Numéro de Téléphone",
+      "contactDetails": "Détails Contact",
+      "madeBy": "Créé Par"
     }
   },
   "resume": {
-    "skillmessage": "My Programming Experience",
+    "skillmessage": "Mon expérience en programmation",
     "labels": {
       "education": "Education",
-      "work": "Work",
-      "skills": "Skills"
+      "work": "Travail",
+      "skills": "Compétences"
     },
     "education": [
       {
@@ -94,49 +94,49 @@
     "work": [
       {
         "company": "UnivPocket",
-        "title": "Full Stack Developer",
+        "title": "Développeur Full Stack",
         "years": "November 2020 - Today",
-        "description": "Mobile Apps conception."
+        "description": "Conception de sites webs et d'applications mobiles."
       },
       {
-        "company": "Freelance 5euros",
-        "title": "Full Stack Developer",
+        "company": "5euros",
+        "title": "Freelance Développeur Full Stack",
         "years": "September 2019 - November 2020",
-        "description": "Websites and Mobile Apps conception."
+        "description": "Conception de sites webs et d'applications mobiles."
       },
       {
         "company": "SQLI - Maroc",
-        "title": "Full Stack Developer Intern",
+        "title": "Stagiaire Développeur Full Stack",
         "years": "February 2019 - August 2019",
-        "description": "Mobile Apps & Websites conception."
+        "description": "Conception de sites webs."
       },
       {
         "company": "Technology & Telecom",
-        "title": "Mobile Developer Intern",
+        "title": "Stagiaire Développeur Mobile",
         "years": "June 2018 - August 2018",
-        "description": "Android Mobile App Conception."
+        "description": "Conception d'une application mobile pour android."
       },
       {
-        "company": "ANPTIC",
-        "title": "Web Developer Intern",
+        "company": "ANPTIC (Agence Nationale de Promotion des TIC)",
+        "title": "Stagiaire Développeur Web",
         "years": "August 2017 - September 2017",
-        "description": "Website building."
+        "description": "Conception d'un site web."
       }
     ],
     "skills": [
       {
-        "name": "Mobile Development",
+        "name": "Développement Mobile",
         "level": "95%"
       },
       {
-        "name": "Web Development",
+        "name": "Développement Web",
         "level": "90%"
       }
     ]
   },
   "portfolio": {
     "labels": {
-      "checkoutWorks": "Check Out Some of My Works."
+      "checkoutWorks": "Quelques exemples de mes projets."
     },
     "projects": [
       {
@@ -179,23 +179,23 @@
   },
   "testimonials": {
     "labels": {
-      "clientTestimonials": "Clients Testimonials"
+      "clientTestimonials": "Témoignages Clients"
     },
     "testimonials": [
       {
-        "text": "Clean Work. I'll recommend at 2000% !!",
+        "text": "Impeccable: Je recommande à 2000% !!",
         "user": "Flako"
       },
       {
-        "text": "Fast and Neat Developer! On top as usual.",
+        "text": "Développeur rapide et soigné! Au top comme à son habitude.",
         "user": "Monir"
       },
       {
-        "text": "Competent and Neat Developer even on more complex and demanding jobs. THANKS!",
+        "text": "Développeur compétent et soigné même sur des travaux bien plus complexes et exigents. MERCI!",
         "user": "Monir"
       },
       {
-        "text": "Fast and efficient, thanks!",
+        "text": "Rapide et efficace, merci!",
         "user": "hugo_unscuzzy"
       }
     ]

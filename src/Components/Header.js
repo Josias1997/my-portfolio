@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import TypeWriter from "react-typewriter";
 
-const Header = ({ data }) => {
+const Header = ({ data, language, onChangeLanguage }) => {
+  const [activeLink, setActiveLink] = useState("#home");
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -10,7 +11,7 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank" rel="noreferrer">
             <i className={network.className}></i>
           </a>
         </li>
@@ -22,41 +23,30 @@ const Header = ({ data }) => {
     <header id="home">
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-          Show navigation
+          {data?.labels.showNavigation}
         </a>
         <a className="mobile-btn" href="#home" title="Hide navigation">
-          Hide navigation
+          {data?.labels.hideNavigation}
         </a>
 
         <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
+          {
+            data?.links.map(({ label, href }) => (
+              <li key={href} className={href === activeLink ? "current" : ""} onClick={() => setActiveLink(href)}>
+                <a className="smoothscroll" href={href}>
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+          <li className={language === "fr" ? "current" : ""} onClick={() => onChangeLanguage("fr")}>
+            <a className="smoothscroll" href="#">
+              FR
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#contact">
-              Contact
+          <li className={language === "en" ? "current" : ""} onClick={() => onChangeLanguage("en")}>
+            <a className="smoothscroll" href="#">
+              EN
             </a>
           </li>
         </ul>
@@ -65,10 +55,10 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>{name ? `${data?.labels.Iam} ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            {data?.labels.basedIn} {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
