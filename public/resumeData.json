@@ -140,6 +140,30 @@
     },
     "projects": [
       {
+        "title": "Uber Clone",
+        "category": "Mobile",
+        "image": "fashion.jpg",
+        "url": "https://github.com/Josias1997/rn-uber-clone"
+      },
+      {
+        "title": "Fashion",
+        "category": "Mobile",
+        "image": "fashion.jpg",
+        "url": "https://github.com/Josias1997/react-native-fashion"
+      },
+      {
+        "title": "Peace Music",
+        "category": "Mobile",
+        "image": "peace.PNG",
+        "url": "https://github.com/Josias1997/peace-music"
+      },
+      {
+        "title": "Climb The World",
+        "category": "Mobile",
+        "image": "climbtheworld.jpg",
+        "url": "https://jobwith.fr"
+      },
+      {
         "title": "Jobwith Job Research App",
         "category": "Web",
         "image": "jobwith.PNG",
