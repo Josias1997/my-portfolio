@@ -18,6 +18,11 @@
     "resumedownload": "cv-kologo.pdf",
     "social": [
       {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/UCHkRN9o4nYXY7Hi9AAZz1FA",
+        "className": "fa fa-youtube"
+      },
+      {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/kologojosias",
         "className": "fa fa-linkedin"
@@ -130,7 +135,7 @@
       },
       {
         "name": "Web Development",
-        "level": "90%"
+        "level": "95%"
       }
     ]
   },
@@ -139,6 +144,12 @@
       "checkoutWorks": "Check Out Some of My Works."
     },
     "projects": [
+      {
+        "title": "React Native Chat UI",
+        "category": "Mobile",
+        "image": "connect.jpg",
+        "url": "https://github.com/eidogs/react-native-chat-ui"
+      },
       {
         "title": "Uber Clone",
         "category": "Mobile",
@@ -162,12 +173,6 @@
         "category": "Mobile",
         "image": "climbtheworld.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.dominion.climbworld"
-      },
-      {
-        "title": "Jobwith Job Research App",
-        "category": "Web",
-        "image": "jobwith.PNG",
-        "url": "https://jobwith.fr"
       },
       {
         "title": "Univpocket",
@@ -198,6 +203,24 @@
         "category": "Mobile",
         "image": "getus.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.getus"
+      },
+      {
+        "title": "Online Doctor Booking App",
+        "category": "Web",
+        "image": "allodocteur226.PNG",
+        "url": "https://allodocteur226.netlify.app/"
+      },
+      {
+        "title": "Hospital Web site",
+        "category": "Web",
+        "image": "hospital.PNG",
+        "url": "https://angularhospitalsite.netlify.app/"
+      },
+      {
+        "title": "Jobwith Job Research App",
+        "category": "Web",
+        "image": "jobwith.PNG",
+        "url": "https://jobwith.fr"
       }
     ]
   },
