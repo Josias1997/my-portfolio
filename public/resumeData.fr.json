@@ -90,7 +90,7 @@
     },
     "education": [
       {
-        "school": "National Institute Of Statistics and Applied Economics",
+        "school": "Institut National de Statistique et d'Economie Appliquée",
         "degree": "Software Engineer",
         "graduated": "July 2019",
         "description": "Graduated as Second of my Promotion"
@@ -98,33 +98,27 @@
     ],
     "work": [
       {
-        "company": "UnivPocket",
-        "title": "Développeur Full Stack",
-        "years": "November 2020 - Today",
-        "description": "Conception de sites webs et d'applications mobiles."
-      },
-      {
-        "company": "5euros",
+        "company": "Eido Global Service",
         "title": "Freelance Développeur Full Stack",
-        "years": "September 2019 - November 2020",
+        "years": "Septembre 2019 - Présent",
         "description": "Conception de sites webs et d'applications mobiles."
       },
       {
         "company": "SQLI - Maroc",
         "title": "Stagiaire Développeur Full Stack",
-        "years": "February 2019 - August 2019",
+        "years": "Fevrier 2019 - Août 2019",
         "description": "Conception de sites webs."
       },
       {
         "company": "Technology & Telecom",
         "title": "Stagiaire Développeur Mobile",
-        "years": "June 2018 - August 2018",
+        "years": "Juin 2018 - Août 2018",
         "description": "Conception d'une application mobile pour android."
       },
       {
         "company": "ANPTIC (Agence Nationale de Promotion des TIC)",
         "title": "Stagiaire Développeur Web",
-        "years": "August 2017 - September 2017",
+        "years": "Août 2017 - Septembre 2017",
         "description": "Conception d'un site web."
       }
     ],
