@@ -25,7 +25,7 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const App = () => {
-  const [language, setLanguage] = useState(localStorage.getItem('language'));
+  const [language, setLanguage] = useState('fr');
   const [selectedLanguage, setSelectedLanguage] = useState("fr");
   const [resumeData, setResumeData] = useState({});
 
@@ -61,7 +61,7 @@ const App = () => {
   return (
     <div className="App">
     {
-      language && resumeData ? (
+      resumeData ? (
         <>
           <Header data={resumeData.main} onChangeLanguage={changeLanguage} language={language} />
           <About data={resumeData.main} />
@@ -71,16 +71,7 @@ const App = () => {
           <Contact data={resumeData.main} />
           <Footer data={resumeData.main} />
         </>
-      ) : (
-        <Modal isOpen={!language} style={customStyles}>
-          <h2>Language</h2>
-          <select name="language" onChange={handleChange}>
-            <option value="fr">French</option>
-            <option value="en">English</option>
-          </select>
-          <button onClick={validate} style={{ width: "100%" }}>OK</button>
-        </Modal>
-      )
+      ) : null
     }
     </div>
   );

@@ -4,7 +4,6 @@ import TypeWriter from "react-typewriter";
 const Header = ({ data, language, onChangeLanguage }) => {
   const [activeLink, setActiveLink] = useState(0);
 
-
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -34,7 +33,7 @@ const Header = ({ data, language, onChangeLanguage }) => {
         <ul id="nav" className="nav">
           {
             data?.links.map(({ label, href }, index) => (
-              <li key={href} className={index === activeLink ? "current" : ""} onClick={() => setActiveLink(index)}>
+              <li key={href}>
                 <a className="smoothscroll" href={href}>
                   {label}
                 </a>
@@ -60,7 +59,10 @@ const Header = ({ data, language, onChangeLanguage }) => {
             <TypeWriter typing={0.5}>{name ? `${data?.labels.Iam} ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            {data?.labels.basedIn} {city}. <span>{occupation}</span>. {description}.
+            <span>{occupation}</span>.
+          </h3>
+          <h3>
+            <span>{description}</span>.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

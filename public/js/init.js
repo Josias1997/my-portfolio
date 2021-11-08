@@ -38,7 +38,7 @@
 ------------------------------------------------------*/
 
 	var sections = $("section");
-	var navigation_links = $("#nav-wrap a");
+	var navigation_links = $('#nav-wrap a');
 
 	sections.waypoint({
 
@@ -50,10 +50,6 @@
 			if (direction === "up") active_section = active_section.prev();
 
 			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-
-         navigation_links.parent().removeClass("current");
-			active_link.parent().addClass("current");
-
 		},
 		offset: '35%'
 
@@ -83,7 +79,7 @@
 		var y = $(window).scrollTop();
       var nav = $('#nav-wrap');
 
-	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
+	   if ((y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
 	      nav.fadeOut('fast');
 	   }
       else {
