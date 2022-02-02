@@ -40,14 +40,14 @@ const Header = ({ data, language, onChangeLanguage }) => {
               </li>
             ))
           }
-          <li className={language === "fr" ? "current" : ""} onClick={() => onChangeLanguage("fr")}>
-            <a className="smoothscroll" href="#">
-              FR
-            </a>
-          </li>
           <li className={language === "en" ? "current" : ""} onClick={() => onChangeLanguage("en")}>
             <a className="smoothscroll" href="#">
               EN
+            </a>
+          </li>
+          <li className={language === "fr" ? "current" : ""} onClick={() => onChangeLanguage("fr")}>
+            <a className="smoothscroll" href="#">
+              FR
             </a>
           </li>
         </ul>

@@ -25,8 +25,8 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const App = () => {
-  const [language, setLanguage] = useState('fr');
-  const [selectedLanguage, setSelectedLanguage] = useState("fr");
+  const [language, setLanguage] = useState('en');
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
