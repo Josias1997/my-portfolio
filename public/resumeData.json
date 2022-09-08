@@ -65,7 +65,7 @@
       }
     ],
     "labels": {
-      "Iam": "I'm",
+      "Iam": "I am",
       "basedIn": "Based In",
       "showNavigation": "Show navigation",
       "hideNavigation": "Hide navigation",
@@ -75,7 +75,7 @@
       "submit": "Submit",
       "error": "En error occured. Please retry",
       "subject": "Subject",
-      "messagenSent": "Your message was sent, thank you!",
+      "messageSent": "Your message was sent, thank you!",
       "addressAndPhone": "Address and Phone",
       "contactDetails": "Contact details",
       "madeBy": "Made By"

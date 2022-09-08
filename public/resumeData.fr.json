@@ -7,7 +7,7 @@
     "bio": "Salut! Je me nomme Josias! Et je suis un ingénieur en Génie Logiciel. Je suis dans le monde professionnel de la programmation il y'a de cela plus de deux ans maintenant. En tant qu'ingénieur en génie logiciel j'ai travaillé à la mise en place et la maintenance de nombreuses applications.",
     "contactmessage": "Contactez moi pour un travail ou un projet!",
     "email": "kologojosias@gmail.com",
-    "phone": "+226 75833234",
+    "phone": "+212 665-475-893",
     "address": {
       "street": "Avenue Al Maghrib, Al Arabie",
       "city": "Rabat",
@@ -75,14 +75,14 @@
       "subject": "Objet",
       "submit": "Envoyer",
       "error": "Erreur. Veuillez reessayer",
-      "messagenSent": "Votre message a été envoyé, Merci!",
+      "messageSent": "Votre message a été envoyé, Merci!",
       "addressAndPhone": "Adresse et Numéro de Téléphone",
       "contactDetails": "Détails Contact",
       "madeBy": "Créé Par"
     }
   },
   "resume": {
-    "skillmessage": "Mon expérience en programmation",
+    "skillMessage": "Mon expérience en programmation",
     "labels": {
       "education": "Education",
       "work": "Travail",

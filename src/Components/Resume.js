@@ -2,8 +2,8 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    let skillmessage = data.skillmessage;
-    let education = data.education.map(function (education) {
+    var skillMessage = data.skillMessage;
+    var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -72,7 +72,7 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{skillmessage}</p>
+          <p>{skillMessage}</p>
 
           <div className="bars">
             <ul className="skills">{skills}</ul>
