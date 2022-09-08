@@ -2,16 +2,16 @@ import React from "react";
 
 const About = ({ data }) => {
   if (data) {
-    var name = data.name;
-    var profilepic = "images/" + data.image;
-    var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var email = data.email;
-    var resumeDownload = data.resumedownload;
+    let name = data.name;
+    let profilepic = "images/" + data.image;
+    let bio = data.bio;
+    let street = data.address.street;
+    let city = data.address.city;
+    let state = data.address.state;
+    let zip = data.address.zip;
+    let phone = data.phone;
+    let email = data.email;
+    let resumeDownload = data.resumedownload;
   }
 
   return (

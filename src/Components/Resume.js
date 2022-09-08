@@ -2,8 +2,8 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
-    var education = data.education.map(function (education) {
+    let skillmessage = data.skillmessage;
+    let education = data.education.map(function (education) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>

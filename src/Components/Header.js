@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import TypeWriter from "react-typewriter";
+import TypeWriter from "typewriter-effect/dist/core";
 
 const Header = ({ data, language, onChangeLanguage }) => {
   const [activeLink, setActiveLink] = useState(0);
 
   if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var description = data.description;
-    var city = data.address.city;
-    var networks = data.social.map(function (network) {
+    let name = data.name;
+    let occupation = data.occupation;
+    let description = data.description;
+    let city = data.address.city;
+    let networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url} target="_blank" rel="noreferrer">
@@ -56,7 +56,10 @@ const Header = ({ data, language, onChangeLanguage }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `${data?.labels.Iam} ${name}.` : null}</TypeWriter>
+            {new TypeWriter({
+              strings: [data.labels.Iam, name],
+              autoStart: true
+            })}
           </h1>
           <h3>
             <span>{occupation}</span>.

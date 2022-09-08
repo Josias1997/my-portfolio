@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = ({ data }) => {
   if (data) {
-    var testimonials = data.testimonials.map(function (testimonials, index) {
+    let testimonials = data.testimonials.map(function (testimonials, index) {
       return (
         <li key={index}>
           <blockquote>
