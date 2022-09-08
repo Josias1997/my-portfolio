@@ -9,10 +9,10 @@
     "email": "kologojosias@gmail.com",
     "phone": "+226 75833234",
     "address": {
-      "street": "Rue Sandaogo",
-      "city": "Ouagadougou",
-      "state": "Kadiogo",
-      "zip": "85 04"
+      "street": "Avenue Al Maghrib, Al Arabie",
+      "city": "Rabat",
+      "state": "Rabat-Salé-Kenitra",
+      "zip": "10010"
     },
     "website": "/",
     "resumedownload": "cv-kologo.pdf",
@@ -90,6 +90,12 @@
     },
     "education": [
       {
+        "school": "École Nationale Supérieure des Mines de Rabat",
+        "degree": "Doctorat",
+        "graduated": "En cours",
+        "description": "Doctorant en Informatique"
+      },
+      {
         "school": "Institut National de Statistique et d'Economie Appliquée",
         "degree": "Software Engineer",
         "graduated": "July 2019",
@@ -125,18 +131,18 @@
     "skills": [
       {
         "name": "React",
-        "level": "90%"
+        "level": "95%"
       },
       {
         "name": "React Native",
-        "level": "90%"
-      },
-      {
-        "name": "Firebase",
-        "level": "85%"
+        "level": "95%"
       },
       {
         "name": "Laravel",
+        "level": "85%"
+      },
+      {
+        "name": "Firebase",
         "level": "85%"
       },
       {
@@ -155,6 +161,12 @@
     },
     "projects": [
       {
+        "title": "Univpocket",
+        "category": "Mobile React Native",
+        "image": "univpocket.jpg",
+        "url": "https://play.google.com/store/apps/details?id=com.univpocket"
+      },
+      {
         "title": "React Native Chat UI",
         "category": "Mobile",
         "image": "connect.jpg",
@@ -162,19 +174,19 @@
       },
       {
         "title": "Uber Clone",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "uber.jpg",
         "url": "https://github.com/Josias1997/rn-uber-clone"
       },
       {
         "title": "Fashion",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "fashion.jpg",
         "url": "https://github.com/Josias1997/react-native-fashion"
       },
       {
         "title": "Peace Music",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "peace.jpg",
         "url": "https://github.com/Josias1997/peace-music"
       },
@@ -185,52 +197,28 @@
         "url": "https://play.google.com/store/apps/details?id=com.dominion.climbworld"
       },
       {
-        "title": "Univpocket",
-        "category": "Mobile",
-        "image": "univpocket.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.univpocket"
-      },
-      {
-        "title": "Auroyal",
-        "category": "Mobile",
-        "image": "auroyal.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.auroyal"
-      },
-      {
         "title": "Ride Client",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "ride.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.ride.client"
       },
       {
         "title": "Ride Driver",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "ride.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.univpocket"
       },
       {
-        "title": "Getus",
-        "category": "Mobile",
-        "image": "getus.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.getus"
-      },
-      {
         "title": "Online Doctor Booking App",
-        "category": "Web",
+        "category": "Web React",
         "image": "allodocteur226.PNG",
         "url": "https://allodocteur226.netlify.app/"
       },
       {
         "title": "Hospital Web site",
-        "category": "Web",
+        "category": "Web Angular",
         "image": "hospital.PNG",
         "url": "https://angularhospitalsite.netlify.app/"
-      },
-      {
-        "title": "Jobwith Job Research App",
-        "category": "Web",
-        "image": "jobwith.PNG",
-        "url": "https://jobwith.fr"
       }
     ]
   },
