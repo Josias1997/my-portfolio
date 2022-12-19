@@ -104,6 +104,12 @@
     ],
     "work": [
       {
+        "company": "3W Academy",
+        "title": "Coach en Développement Web FullStack",
+        "years": "Octobre 2022 - Aujourd'hui",
+        "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel."
+      },
+      {
         "company": "Kavaa Global Services",
         "title": "Développeur Full Stack",
         "years": "Février 2022 - Aujourd'hui",
