@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import Typewriter from "typewriter-effect";
 
 const Header = ({ data, language, onChangeLanguage }) => {
@@ -31,21 +31,25 @@ const Header = ({ data, language, onChangeLanguage }) => {
         </a>
 
         <ul id="nav" className="nav">
-          {
-            data?.links.map(({ label, href }, index) => (
-              <li key={href}>
-                <a className="smoothscroll" href={href}>
-                  {label}
-                </a>
-              </li>
-            ))
-          }
-          <li className={language === "en" ? "current" : ""} onClick={() => onChangeLanguage("en")}>
+          {data?.links.map(({ label, href }, index) => (
+            <li key={href}>
+              <a className="smoothscroll" href={href}>
+                {label}
+              </a>
+            </li>
+          ))}
+          <li
+            className={language === "en" ? "current" : ""}
+            onClick={() => onChangeLanguage("en")}
+          >
             <a className="smoothscroll" href="#">
               EN
             </a>
           </li>
-          <li className={language === "fr" ? "current" : ""} onClick={() => onChangeLanguage("fr")}>
+          <li
+            className={language === "fr" ? "current" : ""}
+            onClick={() => onChangeLanguage("fr")}
+          >
             <a className="smoothscroll" href="#">
               FR
             </a>
@@ -57,11 +61,11 @@ const Header = ({ data, language, onChangeLanguage }) => {
         <div className="banner-text">
           <h1 className="responsive-headline">
             <Typewriter
-                options={{
-                  strings: [data?.labels.Iam, name],
-                  autoStart: true,
-                  loop: true
-                }}
+              options={{
+                strings: [data?.labels.Iam, name],
+                autoStart: true,
+                loop: true,
+              }}
             />
           </h1>
           <h3>
