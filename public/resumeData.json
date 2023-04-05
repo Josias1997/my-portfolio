@@ -2,7 +2,7 @@
   "main": {
     "name": "KOLOGO B Josias Yannick",
     "occupation": "Full Stack Developer",
-    "description": "React - React Native - Angular - Laravel - ASP.NET - Node.js - Django - Firebase",
+    "description": "React - React Native - Java - Angular - Laravel - ASP.NET - Node.js - Django - Firebase",
     "image": "profilepic.png",
     "bio": "Hi there! I am Josias! And I am a software engineer. I've been coding for over 03 years now. As a Software engineer I've worked both with startups and as a freelancer to help build & scale applications.",
     "contactmessage": "Get in touch with me for a job offer or a project!",
@@ -105,7 +105,7 @@
     "work": [
       {
         "company": "3W Academy",
-        "title": "FullStack Web Development Coach",
+        "title": "Team Lead",
         "years": "October 2022 - Today",
         "description": "Bootcamp Coaching HTML, CSS, Javascript, JQuery, React, PHP, Laravel."
       },
@@ -166,6 +166,10 @@
       {
         "name": "Angular",
         "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "60%"
       }
     ]
   },
