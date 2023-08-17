@@ -2,12 +2,12 @@
   "main": {
     "name": "KOLOGO B Josias Yannick",
     "occupation": "Développeur Full Stack",
-    "description": "React - React Native - Java - Angular - Laravel - ASP.NET - Node.js - Django - Firebase",
+    "description": "React - React Native - Laravel - Node.js - Django - Firebase - CI/CD - Azure Cloud Services - Docker",
     "image": "profilepic.png",
-    "bio": "Salut! Je me nomme Josias! Et je suis un ingénieur en Génie Logiciel. Je suis dans le monde professionnel de la programmation il y'a de cela plus de 03 ans maintenant. En tant qu'ingénieur en génie logiciel j'ai travaillé à la mise en place et la maintenance de nombreuses applications.",
+    "bio": "Salut! Je me nomme Josias! Et je suis un ingénieur en Génie Logiciel. Je suis dans le monde professionnel de la programmation il y'a de cela plus de 04 ans maintenant. En tant qu'ingénieur en génie logiciel j'ai travaillé à la mise en place et la maintenance de nombreuses applications.",
     "contactmessage": "Contactez moi pour un travail ou un projet!",
     "email": "kologojosias@gmail.com",
-    "phone": "+212 665-475-893",
+    "phone": "+212 776-987-755",
     "address": {
       "street": "Avenue Al Maghrib, Al Arabie",
       "city": "Rabat",
@@ -104,22 +104,32 @@
     ],
     "work": [
       {
+        "company": "Pentalog",
+        "title": "Senior Node.js Developer",
+        "years": "September 2023 - Today",
+        "description": "Node.js, React/Redux, MongoDB, Typescript, Azure, Jets, TDD, Restfull APIS, CI/CD",
+        "website": "https://pentalog.com"
+      },
+      {
         "company": "3W Academy",
         "title": "Team Lead",
-        "years": "Octobre 2022 - Aujourd'hui",
-        "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel."
+        "years": "Octobre 2022 - August 2023",
+        "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel.",
+        "website": "https://3wa.ma"
       },
       {
         "company": "Kavaa Global Services",
         "title": "Développeur Full Stack",
         "years": "Février 2022 - Aujourd'hui",
-        "description": "Conception de sites web et d'applications mobiles."
+        "description": "Conception de sites web et d'applications mobiles.",
+        "website": "https://kavaa.net"
       },
       {
         "company": "Univpocket",
         "title": "Freelance Développeur Full Stack",
         "years": "Novembre 2020 - Février 2022",
-        "description": "Conception de sites web et d'applications mobiles."
+        "description": "Conception de sites web et d'applications mobiles.",
+        "website": "https://univpocket.com"
       },
       {
         "company": "Eido Global Service",
@@ -131,7 +141,8 @@
         "company": "SQLI - Maroc",
         "title": "Stagiaire Développeur Full Stack",
         "years": "Fevrier 2019 - Août 2019",
-        "description": "Conception de sites web."
+        "description": "Conception de sites web.",
+        "website": "https://www.sqli.com/ma-fr"
       }
     ],
     "skills": [
@@ -145,7 +156,11 @@
       },
       {
         "name": "Laravel",
-        "level": "85%"
+        "level": "90%"
+      },
+      {
+        "name": "Django",
+        "level": "90%"
       },
       {
         "name": "Firebase",
@@ -153,23 +168,11 @@
       },
       {
         "name": "Node.js",
-        "level": "80%"
+        "level": "85%"
       },
       {
-        "name": "Django",
-        "level": "80%"
-      },
-      {
-        "name": "ASP.NET",
-        "level": "70%"
-      },
-      {
-        "name": "Angular",
-        "level": "70%"
-      },
-      {
-        "name": "Java",
-        "level": "60%"
+        "name": "Python",
+        "level": "85%"
       }
     ]
   },
@@ -178,6 +181,12 @@
       "checkoutWorks": "Quelques exemples de mes projets."
     },
     "projects": [
+      {
+        "title": "Splitit Web Site",
+        "category": "Web Django",
+        "image": "splitit-web.jpg",
+        "url": "https://cours.univpocket.com"
+      },
       {
         "title": "Splitit Music App",
         "category": "Mobile React Native",

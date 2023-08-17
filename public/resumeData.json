@@ -2,12 +2,12 @@
   "main": {
     "name": "KOLOGO B Josias Yannick",
     "occupation": "Full Stack Developer",
-    "description": "React - React Native - Java - Angular - Laravel - ASP.NET - Node.js - Django - Firebase",
+    "description": "React - React Native - Laravel - Node.js - Django - Firebase - CI/CD - Azure Cloud Services - Docker",
     "image": "profilepic.png",
-    "bio": "Hi there! I am Josias! And I am a software engineer. I've been coding for over 03 years now. As a Software engineer I've worked both with startups and as a freelancer to help build & scale applications.",
+    "bio": "Hi there! I am Josias! And I am a software engineer. I've been coding for over 04 years now. As a Software engineer I've worked both with startups and as a freelancer to help build & scale applications.",
     "contactmessage": "Get in touch with me for a job offer or a project!",
     "email": "kologojosias@gmail.com",
-    "phone": "+212 665-475-893",
+    "phone": "+212 776-987-755",
     "address": {
       "street": "Avenue Al Maghrib, Al Arabie",
       "city": "Rabat",
@@ -104,22 +104,32 @@
     ],
     "work": [
       {
+        "company": "Pentalog",
+        "title": "Senior Node.js Developer",
+        "years": "September 2023 - Today",
+        "description": "Node.js, React/Redux, MongoDB, Typescript, Azure, Jets, TDD, Restfull APIS, CI/CD",
+        "website": "https://www.pentalog.com/"
+      },
+      {
         "company": "3W Academy",
         "title": "Team Lead",
         "years": "October 2022 - Today",
-        "description": "Bootcamp Coaching HTML, CSS, Javascript, JQuery, React, PHP, Laravel."
+        "description": "Bootcamp Coaching HTML, CSS, Javascript, JQuery, React, PHP, Laravel.",
+        "website": "https://www.3wa.ma/"
       },
       {
         "company": "Kavaa Global Services",
         "title": "Full Stack Developer",
         "years": "February 2022 - Today",
-        "description": "Mobile and Web Apps conception."
+        "description": "Mobile and Web Apps conception.",
+        "website": "https://www.kavaa.net/"
       },
       {
         "company": "Univpocket Inc.",
         "title": "Full Stack Developer",
         "years": "November 2020 - February 2022",
-        "description": "Mobile and Web Apps conception."
+        "description": "Mobile and Web Apps conception.",
+        "website": "https://www.univpocket.com/"
       },
       {
         "company": "Eido Global Services",
@@ -131,7 +141,8 @@
         "company": "SQLI - Maroc",
         "title": "Full Stack Developer Intern",
         "years": "February 2019 - August 2019",
-        "description": "Mobile Apps & Websites conception."
+        "description": "Mobile Apps & Websites conception.",
+        "website": "https://www.sqli.com/ma-fr"
       }
     ],
     "skills": [
@@ -145,7 +156,11 @@
       },
       {
         "name": "Laravel",
-        "level": "85%"
+        "level": "90%"
+      },
+      {
+        "name": "Django",
+        "level": "90%"
       },
       {
         "name": "Firebase",
@@ -153,23 +168,11 @@
       },
       {
         "name": "Node.js",
-        "level": "80%"
+        "level": "85%"
       },
       {
-        "name": "Django",
-        "level": "80%"
-      },
-      {
-        "name": "ASP.NET",
-        "level": "70%"
-      },
-      {
-        "name": "Angular",
-        "level": "70%"
-      },
-      {
-        "name": "Java",
-        "level": "60%"
+        "name": "Python",
+        "level": "85%"
       }
     ]
   },
@@ -178,6 +181,12 @@
       "checkoutWorks": "Check Out Some of My Works."
     },
     "projects": [
+      {
+        "title": "Splitit Web Site",
+        "category": "Web Django",
+        "image": "splitit-web.jpg",
+        "url": "https://cours.univpocket.com"
+      },
       {
         "title": "Splitit Music App",
         "category": "Mobile React Native",
@@ -216,7 +225,7 @@
       },
       {
         "title": "Climb The World",
-        "category": "Mobile",
+        "category": "Mobile React Native",
         "image": "climbtheworld.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.dominion.climbworld"
       },
