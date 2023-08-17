@@ -24,6 +24,7 @@ const Resume = ({ data }) => {
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
           <p>{work.description}</p>
+          {work.website && <a href={work.website}>{work.website}</a>}
         </div>
       );
     });
