@@ -19,7 +19,11 @@ const Resume = ({ data }) => {
       return (
         <div key={work.company}>
           <h3>{work.company}</h3>
-          {work.website && <a href={work.website}>{work.website}</a>}
+          {work.website && (
+            <a href={work.website} target="_blank">
+              {work.website}
+            </a>
+          )}
           <p className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
