@@ -184,19 +184,19 @@
       {
         "title": "Xaudio",
         "category": "Mobile React Native",
-        "image": "xaudio.jpg",
+        "image": "xaudio.png",
         "url": "https://play.google.com/store/apps/details?id=com.fullstapp.splitit"
       },
       {
         "title": "Pics",
         "category": "Mobile Kotlin",
-        "image": "talk.jpg",
+        "image": "talk.png",
         "url": "https://play.google.com/store/apps/details?id=com.eidogs.pics"
       },
       {
         "title": "Talk",
         "category": "Mobile Java",
-        "image": "talk.jpg",
+        "image": "talk.png",
         "url": "https://play.google.com/store/apps/details?id=com.eidogs.talk"
       },
       {
