@@ -182,10 +182,22 @@
     },
     "projects": [
       {
-        "title": "Splitit Music App",
+        "title": "Xaudio",
         "category": "Mobile React Native",
-        "image": "splitit.jpg",
+        "image": "xaudio.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.fullstapp.splitit"
+      },
+      {
+        "title": "Pics",
+        "category": "Mobile Kotlin",
+        "image": "talk.jpg",
+        "url": "https://play.google.com/store/apps/details?id=com.eidogs.pics"
+      },
+      {
+        "title": "Talk",
+        "category": "Mobile Java",
+        "image": "talk.jpg",
+        "url": "https://play.google.com/store/apps/details?id=com.eidogs.talk"
       },
       {
         "title": "Univpocket",
