@@ -3,3 +3,12 @@
   border-radius: 5px;
   padding: 20px;
 }
+
+#home {
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  background-color: black;
+}

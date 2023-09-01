@@ -37,6 +37,7 @@ header {
   width: 100%;
   text-align: center;
   overflow: hidden;
+  background-image: url(../images/header-background.jpg);
 }
 
 /* vertically center banner section */
@@ -260,7 +261,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #000;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -452,7 +453,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: #000;
   padding-top: 90px;
   padding-bottom: 60px;
 }
