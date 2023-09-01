@@ -183,9 +183,9 @@
     "projects": [
       {
         "title": "Xaudio",
-        "category": "Mobile React Native",
+        "category": "Mobile Kotlin",
         "image": "xaudio.png",
-        "url": "https://play.google.com/store/apps/details?id=com.fullstapp.splitit"
+        "url": "https://play.google.com/store/apps/details?id=com.eidogs.xaudio"
       },
       {
         "title": "Pics",
@@ -198,6 +198,12 @@
         "category": "Mobile Java",
         "image": "talk.png",
         "url": "https://play.google.com/store/apps/details?id=com.eidogs.talk"
+      },
+      {
+        "title": "Splitit",
+        "category": "Mobile React Native",
+        "image": "xaudio.png",
+        "url": "https://play.google.com/store/apps/details?id=com.fullstapp.splitit"
       },
       {
         "title": "Univpocket",
