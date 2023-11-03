@@ -33,6 +33,11 @@
         "className": "fa fa-github"
       },
       {
+        "name": "medium",
+        "url": "https://kingjosias.medium.com/",
+        "className": "fa fa-medium"
+      },
+      {
         "name": "skype",
         "url": "skype:kologojosias?chat",
         "className": "fa fa-skype"
@@ -104,17 +109,10 @@
     ],
     "work": [
       {
-        "company": "Pentalog",
-        "title": "Senior Node.js Developer",
-        "years": "September 2023 - Today",
-        "description": "Node.js, React/Redux, MongoDB, Typescript, Azure, Jets, TDD, Restfull APIS, CI/CD",
-        "website": "https://pentalog.com"
-      },
-      {
         "company": "3W Academy",
         "title": "Team Lead",
-        "years": "Octobre 2022 - August 2023",
-        "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel.",
+        "years": "Octobre 2022 - Today",
+        "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel, Node.js, MySQL, MongoDB, MVC.",
         "website": "https://3wa.ma"
       },
       {
@@ -185,25 +183,25 @@
         "title": "Xaudio",
         "category": "Mobile Kotlin",
         "image": "xaudio.png",
-        "url": "https://play.google.com/store/apps/details?id=com.eidogs.xaudio"
+        "url": "https://github.com/Josias1997/xaudio/"
       },
       {
         "title": "Pics",
         "category": "Mobile Kotlin",
         "image": "pics.png",
-        "url": "https://play.google.com/store/apps/details?id=com.eidogs.pics"
+        "url": "https://github.com/Josias1997/pics/"
       },
       {
         "title": "Talk",
         "category": "Mobile Java",
         "image": "talk.png",
-        "url": "https://play.google.com/store/apps/details?id=com.eidogs.talk"
+        "url": "https://github.com/Josias1997/talk/"
       },
       {
         "title": "Splitit",
         "category": "Mobile React Native",
         "image": "splitit.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.fullstapp.splitit"
+        "url": "https://github.com/Josias1997/splitit-client/"
       },
       {
         "title": "Univpocket",
