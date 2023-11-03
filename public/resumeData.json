@@ -57,6 +57,10 @@
         "href": "#resume"
       },
       {
+        "label": "Youtube",
+        "href": "#youtube"
+      },
+      {
         "label": "Works",
         "href": "#portfolio"
       },
@@ -180,6 +184,12 @@
     },
     "projects": [
       {
+        "title": "React Native Music Player",
+        "category": "Mobile React Native",
+        "image": "player.png",
+        "url": "https://www.youtube.com/watch?v=WP9lRjqE4PU"
+      },
+      {
         "title": "Xaudio",
         "category": "Mobile Kotlin",
         "image": "xaudio.png",
@@ -196,12 +206,6 @@
         "category": "Mobile Java",
         "image": "talk.png",
         "url": "https://github.com/Josias1997/talk/"
-      },
-      {
-        "title": "Splitit",
-        "category": "Mobile React Native",
-        "image": "splitit.jpg",
-        "url": "https://github.com/Josias1997/splitit-client/"
       },
       {
         "title": "Univpocket",
@@ -252,12 +256,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.ride.driverapp"
       },
       {
-        "title": "Splitit Web Site",
-        "category": "Web Django",
-        "image": "splitit-web.png",
-        "url": "https://cours.univpocket.com"
-      },
-      {
         "title": "Online Doctor Booking App",
         "category": "Web React",
         "image": "allodocteur226.PNG",
@@ -268,6 +266,25 @@
         "category": "Web Angular",
         "image": "hospital.PNG",
         "url": "https://angularhospitalsite.netlify.app/"
+      }
+    ]
+  },
+  "youtube": {
+    "labels": {
+      "title": "My Latest Youtube Tutorials."
+    },
+    "videos": [
+      {
+        "videoId": "FIjr2gCuMYE?si=gPMcKcOToUFbhoDK"
+      },
+      {
+        "videoId": "WP9lRjqE4PU?si=dWQuubCh2h1GRsDk"
+      },
+      {
+        "videoId": "Xml3IO8IyWM?si=e5WP_TnCI2iIZHFi"
+      },
+      {
+        "videoId": "4hH7k-871n8?si=oSqRr1O4y_AXChmK"
       }
     ]
   },

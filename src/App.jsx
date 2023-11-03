@@ -10,6 +10,7 @@ import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
 
 import "./App.css";
+import Youtube from "./Components/Youtube";
 
 Modal.setAppElement("#root");
 
@@ -48,6 +49,7 @@ const App = () => {
           />
           <About data={resumeData.main} />
           <Resume data={resumeData.resume} />
+          <Youtube data={resumeData.youtube} />
           <Portfolio data={resumeData.portfolio} />
           <Testimonials data={resumeData.testimonials} />
           <Contact data={resumeData.main} />
