@@ -99,37 +99,37 @@
     },
     "education": [
       {
-        "school": "École Nationale Supérieure des Mines de Rabat",
-        "degree": "Doctorat",
-        "graduated": "En cours",
-        "description": "Doctorant en Informatique"
+        "school": "Institut National de Statistique et d'Economie Appliquée",
+        "degree": "Informatique - Génie Logiciel",
+        "graduated": "Juin 2019",
+        "description": "Génie Logiciel, Développement Web et Mobile"
       },
       {
-        "school": "Institut National de Statistique et d'Economie Appliquée",
-        "degree": "Software Engineer",
-        "graduated": "July 2019",
-        "description": "Graduated as Second of my Promotion"
+        "school": "Faculté des Sciences et Techniques d'Errachidia",
+        "degree": "DEUST",
+        "graduated": "Juin 2016",
+        "description": "Pathématiques, Informatique, Physique"
       }
     ],
     "work": [
       {
         "company": "Connexin",
         "title": "Développeur Full Stack Senior",
-        "years": "Octobre 2022 - Today",
+        "years": "Octobre 2022 - Aujourd'hui",
         "description": "React, Sanity, Typescript, Storybook, Cypress, Review de Codes",
         "website": "https://www.connexin.co.uk/"
       },
       {
         "company": "3W Academy",
         "title": "Team Lead",
-        "years": "Octobre 2022 - Today",
+        "years": "Octobre 2022 - Août 2023",
         "description": "Encadrement Bootcamp HTML, CSS, Javascript, JQuery, React, PHP, Laravel, Node.js, MySQL, MongoDB, MVC.",
         "website": "https://3wa.ma"
       },
       {
         "company": "Kavaa Global Services",
         "title": "Développeur Full Stack",
-        "years": "Février 2022 - Aujourd'hui",
+        "years": "Février 2022 - Octobre 2022",
         "description": "Conception de sites web et d'applications mobiles.",
         "website": "https://kavaa.net"
       },
