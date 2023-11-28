@@ -2,7 +2,7 @@
   "main": {
     "name": "KOLOGO B Josias Yannick",
     "occupation": "Full Stack Developer",
-    "description": "React - React Native - Laravel - Node.js - Django - Firebase - CI/CD - Azure Cloud Services - Docker",
+    "description": "React - React Native - Laravel - Node.js - Firebase - CI/CD - Azure Cloud Services - Docker",
     "image": "profilepic.png",
     "bio": "Hi there! I am Josias! And I am a software engineer. I've been coding for over 04 years now. As a Software engineer I've worked both with startups and as a freelancer to help build & scale applications.",
     "contactmessage": "Get in touch with me for a job offer or a project!",
@@ -113,9 +113,16 @@
     ],
     "work": [
       {
+        "company": "Connexin",
+        "title": "Développeur Full Stack Senior",
+        "years": "November 2022 - Today",
+        "description": "React, Sanity, Typescript, Storybook, Cypress, Code Reviews",
+        "website": "https://www.connexin.co.uk/"
+      },
+      {
         "company": "3W Academy",
         "title": "Team Lead",
-        "years": "October 2022 - Today",
+        "years": "October 2022 - AUgust 2023",
         "description": "Bootcamp Coaching HTML, CSS, Javascript, JQuery, React, PHP, Laravel, Node.js, MySQL, MongoDB, MVC",
         "website": "https://www.3wa.ma/"
       },
@@ -158,10 +165,6 @@
       },
       {
         "name": "Laravel",
-        "level": "90%"
-      },
-      {
-        "name": "Django",
         "level": "90%"
       },
       {
