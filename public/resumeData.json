@@ -214,12 +214,6 @@
         "url": "https://github.com/Josias1997/talk/"
       },
       {
-        "title": "Univpocket",
-        "category": "Mobile React Native",
-        "image": "univpocket.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.univpocket"
-      },
-      {
         "title": "React Native Chat UI",
         "category": "Mobile",
         "image": "connect.jpg",
@@ -236,30 +230,6 @@
         "category": "Mobile React Native",
         "image": "fashion.jpg",
         "url": "https://github.com/Josias1997/react-native-fashion"
-      },
-      {
-        "title": "Peace Music",
-        "category": "Mobile React Native",
-        "image": "peace.jpg",
-        "url": "https://github.com/Josias1997/peace-music"
-      },
-      {
-        "title": "Climb The World",
-        "category": "Mobile React Native",
-        "image": "climbtheworld.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.dominion.climbworld"
-      },
-      {
-        "title": "Ride Client",
-        "category": "Mobile React Native",
-        "image": "ride.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.ride.client"
-      },
-      {
-        "title": "Ride Driver",
-        "category": "Mobile React Native",
-        "image": "ride.jpg",
-        "url": "https://play.google.com/store/apps/details?id=com.ride.driverapp"
       },
       {
         "title": "Connexin",
