@@ -186,6 +186,30 @@
     },
     "projects": [
       {
+        "title": "Photopholio",
+        "category": "HTML/CSS/Javascript",
+        "image": "photofolio.png",
+        "url": "https://josias1997.github.io/photofolio/"
+      },
+      {
+        "title": "Connexin",
+        "category": "Typescript Next.js Node.js",
+        "image": "connexin.png",
+        "url": "https://www.connexin.co.uk/"
+      },
+      {
+        "title": "Surfside",
+        "category": "HTML/CSS/Javascript",
+        "image": "surfide.png",
+        "url": "https://josias1997.github.io/bootstrap-ecommerce/"
+      },
+      {
+        "title": "Insilo",
+        "category": "Laravel PHP",
+        "image": "insilo.png",
+        "url": "https://insilo.fly.dev/"
+      },
+      {
         "title": "React Native Music Player",
         "category": "Mobile React Native",
         "image": "player.png",
@@ -232,30 +256,6 @@
         "category": "Mobile React Native",
         "image": "peace.jpg",
         "url": "https://github.com/Josias1997/peace-music"
-      },
-      {
-        "title": "Connexin",
-        "category": "Typescript Next.js",
-        "image": "connexin.png",
-        "url": "https://www.connexin.co.uk/"
-      },
-      {
-        "title": "Insilo",
-        "category": "Laravel PHP",
-        "image": "insilo.png",
-        "url": "https://insilo.fly.dev/"
-      },
-      {
-        "title": "Online Doctor Booking App",
-        "category": "Web React",
-        "image": "allodocteur226.PNG",
-        "url": "https://allodocteur226.netlify.app/"
-      },
-      {
-        "title": "Hospital Web site",
-        "category": "Web Angular",
-        "image": "hospital.PNG",
-        "url": "https://angularhospitalsite.netlify.app/"
       }
     ]
   },
